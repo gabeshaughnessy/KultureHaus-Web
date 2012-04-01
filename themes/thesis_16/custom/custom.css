@@ -1,0 +1,47 @@
+/*----------   CUSTOM THESIS SKIN from gabe's imagination ------------------
+
+ ____ ____ ____ ____ ____ 
+||g |||a |||b |||e |||s ||
+||__|||__|||__|||__|||__||
+|/__|/__|/__|/__|/__|
+ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+||i |||m |||a |||g |||i |||n |||a |||t |||i |||o |||n ||
+||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
+|/__|/__|/__|/__|/__|/__|/__|/__|/__|/__|/__|
+
+since u r looking at the source code, I assume you're curious. I suggest you visit gabesimagination.com */
+
+/* ______________HEADS UP MITCHES!__________________*/
+
+.custom #logoReplacement { 
+height:13.5em;
+padding:0;
+background: url(images/banner.png)center left no-repeat; 
+/*----drop shadow and border on header
+-moz-box-shadow: 1px 1px 8px #000;
+-webkit-box-shadow: 1px 1px 8px #000;
+box-shadow: 1px 1px 8px #000;
+border: .1em #666 solid; 
+-webkit-border-radius: 2em; 
+-moz-border-radius: 2em;
+----*/
+}
+.custom #header{ padding:.5em; border: 0px;}
+.custom #header a { 
+display: block;
+height: 15em;
+}
+.custom #header a span { 
+visibility: hidden; 
+} 
+.custom #header #logo { display:none; } 
+.custom #header #tagline { display:none; }
+
+/*tidying up loose ends here */
+.custom #sidebars {border-top: 0;}
+
+/* ------------Multimedia box changes-------------------*/
+.custom .video_box{background:#fff;}
+
+/*-------------Sidebar's Gone Wild!---------------------*/
+.custom #sidebar_1{border:0px;}
