@@ -5,7 +5,6 @@
 #---------------------------------------------------------------#
 ###################### Get custom function ######################
 #---------------------------------------------------------------#
-
 include (TEMPLATEPATH . "/lib/custom.lib.php");
 
 // Update Notification
@@ -179,7 +178,7 @@ add_action( 'widgets_init', 'kingsize_remove_recent_comments_style' );
 ###################### Theme Options Setting ######################
 #-----------------------------------------------------------------#
 
-require_once ( get_stylesheet_directory() . '/lib/theme-options.php' );
+require_once ( TEMPLATEPATH . '/lib/theme-options.php' );
 
 if (is_admin()) { // instruction to only load if it is the admin area
    // register your script location, dependencies and version
@@ -194,7 +193,7 @@ if (is_admin()) { // instruction to only load if it is the admin area
 ###################### Menu Navitation Setup ######################
 #-----------------------------------------------------------------#
 
-require_once ( get_stylesheet_directory() . '/lib/menu-walker.php' );
+require_once ( TEMPLATEPATH . '/lib/menu-walker.php' );
 
 add_action( 'init', 'register_my_menus' );
 function register_my_menus() {
@@ -231,19 +230,19 @@ function my_init_method() {
         wp_enqueue_script( 'jquery' );
         
         
-		wp_register_script("cufon", get_bloginfo(template_directory) . "/js/cufon-yui.js");
+		wp_register_script("cufon", get_bloginfo('template_directory') . "/js/cufon-yui.js");
 		wp_enqueue_script('cufon');
 			    
-		wp_register_script('PT_Sans', get_bloginfo(template_directory) . "/js/PT_Sans.font.js");
+		wp_register_script('PT_Sans', get_bloginfo('template_directory') . "/js/PT_Sans.font.js");
 		wp_enqueue_script('PT_Sans');
 			    
-		wp_register_script('PT_Sans_Narrow', get_bloginfo(template_directory) . "/js/PT_Sans_Narrow.font.js");
+		wp_register_script('PT_Sans_Narrow', get_bloginfo('template_directory') . "/js/PT_Sans_Narrow.font.js");
 		wp_enqueue_script('PT_Sans_Narrow');
 			    
-		wp_register_script('custom', get_bloginfo(template_directory) . "/js/custom.js");
+		wp_register_script('custom', get_bloginfo('template_directory') . "/js/custom.js");
 		wp_enqueue_script('custom');
 
-        wp_register_script('tipsy', get_bloginfo(template_directory) . "/js/jquery.tipsy.js");
+        wp_register_script('tipsy', get_bloginfo('template_directory') . "/js/jquery.tipsy.js");
 		wp_enqueue_script('tipsy');   
     }
 }    
