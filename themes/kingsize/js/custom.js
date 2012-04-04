@@ -1,14 +1,14 @@
 jQuery(document).ready(function($) {                  	
 
 	// CUFON REPLACEMENT
-	Cufon.replace('#navbar li a, h1.name, #main h1, #main h2', { fontFamily: 'PT Sans Narrow' }); 
+/*	Cufon.replace('#navbar li a, h1.name, #main h1, #main h2', { fontFamily: 'PT Sans Narrow' }); 
 	
 	Cufon.replace('#navbar li a span, .post h3 a, a.read_more, #sidebar h3, #main h3, #main h4, #pagination a, a.more-link, #pagination-full a',  { fontFamily: 'PT Sans' }); 
 	
 	Cufon.replace('a.button', {
 	fontFamily: 'PT Sans',
 	textShadow: '1px 1px #434343'
-	});
+	});*/
 
 
 	//DROPDOWN SCRIPT

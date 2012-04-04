@@ -230,14 +230,14 @@ function my_init_method() {
         wp_enqueue_script( 'jquery' );
         
         
-		wp_register_script("cufon", get_bloginfo('template_directory') . "/js/cufon-yui.js");
-		wp_enqueue_script('cufon');
+		//wp_register_script("cufon", get_bloginfo('template_directory') . "/js/cufon-yui.js");
+		//wp_enqueue_script('cufon');
 			    
-		wp_register_script('PT_Sans', get_bloginfo('template_directory') . "/js/PT_Sans.font.js");
-		wp_enqueue_script('PT_Sans');
+		//wp_register_script('PT_Sans', get_bloginfo('template_directory') . "/js/PT_Sans.font.js");
+		//wp_enqueue_script('PT_Sans');
 			    
-		wp_register_script('PT_Sans_Narrow', get_bloginfo('template_directory') . "/js/PT_Sans_Narrow.font.js");
-		wp_enqueue_script('PT_Sans_Narrow');
+		//wp_register_script('PT_Sans_Narrow', get_bloginfo('template_directory') . "/js/PT_Sans_Narrow.font.js");
+		//wp_enqueue_script('PT_Sans_Narrow');
 			    
 		wp_register_script('custom', get_bloginfo('template_directory') . "/js/custom.js");
 		wp_enqueue_script('custom');

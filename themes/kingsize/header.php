@@ -54,7 +54,7 @@ $get_options = get_option('wm_theme_settings');
 		<!-- End theme setting head include -->
 		
 		<!-- Portfolio control CSS and JS-->		
-		<?php include (TEMPLATEPATH . '/lib/portofolio_template_style_js.php'); ?>		
+		<?php //include (TEMPLATEPATH . '/lib/portofolio_template_style_js.php'); ?>		
 		<!-- END Portfolio control CSS and JS-->
 		
 		<?php if ( get_option('wm_no_rightclick_enabled') == "1" ) {?>
